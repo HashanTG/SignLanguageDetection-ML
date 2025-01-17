@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Hello', 'No', 'Please', 'ThankYou', 'Yes']
+
+roboflow:
+  workspace: becs-32253-sign-language-detection-using-ml
+  project: becs-32253-sign_detection
+  version: 2
+  license: Private
+  url: https://universe.roboflow.com/becs-32253-sign-language-detection-using-ml/becs-32253-sign_detection/dataset/2
